@@ -27,4 +27,5 @@ To mark the lung area in the CT scans, a CNN model is trained using the preproce
 
 # INFECTION SEGMENTATION:
 For state-of-the-art segmentation, an U-net model with the Dice coefficient is implemented to perform infection segmentation. The Cosine Annealing Learning Rate Schedule is utilized to optimize the segmentation process. The model achieves a Dice coefficient of 0.8217 and a validation Dice coefficient of 0.7821.
+
 <img width="516" alt="9" src="https://github.com/orfey7/CovidDetection/assets/55453859/630e3cb0-5b7c-4f98-85bc-bc2a944bcf94">
