@@ -5,7 +5,9 @@
 The goal of this project is to classify patients as either positive or negative for COVID-19 based on the analysis of their lung CT scans. Additionally, if a patient is identified as COVID-19 positive, the project aims to perform lung and infection segmentation.
 
 # DATASET:
-The dataset used in this project consists of 20 images of COVID-19 positive patients, along with their lung masks and infection masks, all in the Nifti format.<img width="1047" alt="1" src="https://github.com/orfey7/CovidDetection/assets/55453859/3b1e7355-4742-41d8-8d33-f39dc5a06d54">
+The dataset used in this project consists of 20 images of COVID-19 positive patients, along with their lung masks and infection masks, all in the Nifti format.
+https://www.kaggle.com/datasets/andrewmvd/covid19-ct-scans
+<img width="1047" alt="1" src="https://github.com/orfey7/CovidDetection/assets/55453859/3b1e7355-4742-41d8-8d33-f39dc5a06d54">
 
 # DATA PREPROCESSING:
 The data preprocessing stage involves enhancing the contrast of the CT scan images and cropping them to focus solely on the lung region. Contrast enhancement is achieved by utilizing the CLAHE enhancer. To crop the images, a binarization technique is applied first, followed by biomedical imaging methods like erosion and dilation. K-means clustering is then employed to identify clusters and draw bounding boxes around them, resulting in the desired lung region cropping of the CT scans.
